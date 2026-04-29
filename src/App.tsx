@@ -21,7 +21,7 @@ const RECENT_QUESTIONS = [
 export function App() {
   return (
 <div className="p-8 space-y-8 bg-[#f8fafc] min-h-screen">
-  {/* Header em Tailwind Puro */}
+  {/* Header em Tailwind */}
   <div className="w-full bg-white p-6 rounded-xl shadow-sm border border-slate-100">
     <div className="flex justify-between items-center">
       

@@ -7,7 +7,6 @@
 
 @layer base {
   * {
-    /* Mantém as bordas consistentes com o estilo que você usou */
     @apply border-slate-100;
   }
   
@@ -16,7 +15,6 @@
   }
 
   body {
-    /* Usa a cor de fundo exata que você colocou na div principal do App.tsx */
     @apply bg-[#f8fafc] text-slate-800;
   }
 }
