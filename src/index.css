@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "@fontsource-variable/montserrat";
+
+@theme {
+  --font-sans: 'Montserrat Variable', sans-serif;
+}
+
+@layer base {
+  * {
+    /* Mantém as bordas consistentes com o estilo que você usou */
+    @apply border-slate-100;
+  }
+  
+  html {
+    @apply font-sans;
+  }
+
+  body {
+    /* Usa a cor de fundo exata que você colocou na div principal do App.tsx */
+    @apply bg-[#f8fafc] text-slate-800;
+  }
+}
