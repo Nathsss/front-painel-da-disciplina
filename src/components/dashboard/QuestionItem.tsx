@@ -1,5 +1,3 @@
-
-
 interface QuestionItemProps {
   title: string;
   description: string;

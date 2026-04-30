@@ -1,5 +1,7 @@
 import { QuestionItem } from "./components/dashboard/QuestionItem";
+// SVG'S FORAM PEGOS COM LUCIDE
 // Exemplo de BD
+
 const RECENT_QUESTIONS = [
   {
     id: 1,
