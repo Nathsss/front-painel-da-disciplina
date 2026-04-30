@@ -21,7 +21,7 @@ const RECENT_QUESTIONS = [
 export function App() {
   return (
 <div className="p-8 space-y-8 bg-[#f8fafc] min-h-screen">
-  {/* Header em Tailwind */}
+  {/* Header */}
   <div className="w-full bg-white p-6 rounded-xl shadow-sm border border-slate-100">
     <div className="flex justify-between items-center">
       
@@ -89,7 +89,7 @@ export function App() {
   title="Algoritmo de Ordenação Customizado"
   description="Criar lógica sem usar métodos embutidos (.sort)"
   status="Revisão Pendente"
-  icon={<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>} // O SVG que você já tem
+  icon={<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>} 
 />
 
     {/* Item 2 */}
@@ -97,7 +97,7 @@ export function App() {
   title="Menu Interativo com Laço While"
   description="Estruturas condicionais e validação de input"
   status="Publicado"
-  icon={<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>} // O SVG que você já tem
+  icon={<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>}
 />
   </div>
 </div>
