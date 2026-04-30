@@ -1,10 +1,10 @@
-// src/components/dashboard/QuestionItem.tsx
+
 
 interface QuestionItemProps {
   title: string;
   description: string;
   status: string;
-  icon: React.ReactNode; // Permite passar qualquer SVG ou Ícone
+  icon: React.ReactNode; 
 }
 
 export const QuestionItem = ({ title, description, status, icon }: QuestionItemProps) => {
@@ -13,7 +13,6 @@ export const QuestionItem = ({ title, description, status, icon }: QuestionItemP
   return (
     <div className="flex items-center justify-between p-4 rounded-lg hover:bg-slate-50 transition-colors border-t border-slate-50 first:border-none">
       <div className="flex items-center gap-4">
-        {/* O ícone agora vem de fora, sem lógica de 'if' aqui dentro */}
         <div className="bg-slate-100 p-3 rounded-md text-slate-400">
           {icon}
         </div>

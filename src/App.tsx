@@ -72,7 +72,6 @@ export function App() {
   <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
     <div className="flex justify-between items-start mb-4">
       <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Dúvidas Pendentes</span>
-      <div className="w-2 h-2 rounded-full bg-red-500 shadow-[0_0_8px_rgba(239,68,68,0.5)]"></div>
     </div>
     <div className="text-4xl font-bold text-slate-800">3</div>
     <div className="text-xs text-slate-500 mt-2">Maior dificuldade: <span className="font-bold text-slate-700 underline decoration-slate-200">Funções com *args e **kwargs</span></div>
@@ -82,7 +81,6 @@ export function App() {
   {/* Recent Questions Section */}
   <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
   <h2 className="text-lg font-bold text-slate-800 mb-6">Banco de Questões Recentes</h2>
-  
   <div className="space-y-4">
     {/* Item 1 */}
     <QuestionItem 
